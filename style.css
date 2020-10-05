@@ -1,0 +1,66 @@
+/* regole generali */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* regole di debug */
+[class*="col-"] {
+  min-height: 100px;
+  background-color: lightgreen;
+  border: solid 1px  #000;
+  padding: 2px;
+}
+
+
+[class*="col-"] > .row > [class*="col-"]{
+  background-color: salmon;
+  border-color: #fff;
+}
+
+
+/* regole header */
+#menu {
+  min-height: 120px;
+  background-color: #2c3e50;
+}
+
+
+/* regole sezione principale */
+#sez-1 {
+  min-height: 450px;
+  background-color: #1abc9c;
+}
+
+#block-center {
+  min-height: 450px;
+}
+
+
+/* regole sezione portfolio */
+#sez-2 {
+  min-height: 350px;
+}
+
+
+
+
+/* regole sezione about */
+#sez-3 {
+  min-height: 280px;
+  background-color: #1abc9c;
+}
+
+
+/* regole sezione contact me */
+#sez-4 {
+  min-height: 400px;
+}
+
+
+/* regole footer */
+#foot-1 {
+  min-height: 200px;
+  background-color: #3a546d;
+}
