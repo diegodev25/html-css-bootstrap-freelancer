@@ -100,10 +100,17 @@
   width: 12%;
 }
 
+#img-star-2 {
+  width: 4%;
+  filter: contrast(52%);
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: -35px;
+}
+
 .img-port {
   display: block;
   width: 75%;
-  height: auto;
   border-radius: 10px;
   margin: 20px auto 35px auto;
 }
@@ -111,7 +118,7 @@
 
 /* regole sezione about */
 #sez-3 {
-  min-height: 280px;
+  min-height: 480px;
   background-color: #1abc9c;
 }
 
@@ -141,16 +148,28 @@
 }
 
 .button-center {
-  width: 12%;
-  margin: auto;
+  text-align: center;
 }
 
-.color-bat {
+#butt-download {
+  font-size: 22px;
+  background-color: #1abc9c;
+  border: 2px solid white;
+  padding: 20px 40px;
+}
+
+#down-img {
+  width: 11.5%;
+  filter: invert(100%);
+  margin-left: -12px;
+  margin-right: 12px;
+}
+/* .color-bat {
   background-color: #1abc9c;
   border: 2px solid white;
   border-radius: 5px;
   padding: 20px 40px;
-}
+} */
 
 
 /* regole sezione contact me */
@@ -159,6 +178,7 @@
 }
 
 #sez-4 h1 {
+  margin-top: 50px;
   font-size: 42px;
   text-align: center;
   color: #2c3e50;
@@ -192,8 +212,29 @@
 }
 
 #back-fot h3 {
+  margin-bottom: 20px;
   text-align: center;
   color: white;
+}
+
+.img-ctr {
+  width: 100%;
+  margin: auto;
+  padding-left: 25%;
+  padding-right: 5%;
+}
+
+#logo-br-f {
+  width: 6%;
+  height: auto;
+  filter: invert(100%);
+}
+
+.logo-br {
+  width: 12%;
+  height: auto;
+  filter: invert(100%);
+  margin-left: 15px;
 }
 
 #back-fot p {
