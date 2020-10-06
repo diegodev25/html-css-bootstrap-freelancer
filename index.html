@@ -15,7 +15,7 @@
 
       <!-- header  -->
       <header id="menu" class="row">
-        <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+        <div class="col-xs-12 col-sm-8 col-sm-offset-2">
           <nav id="color-nav" class="navbar navbar-default">
             <div class="container-fluid">
               <!-- Brand and toggle get grouped for better mobile display -->
@@ -74,27 +74,27 @@
 
           <!-- riga 2 -->
           <div class="col-xs-12 col-md-6 col-lg-4">
-            <img id="img-center-portfolio" src="img/cabin.png" alt="Cabina">
+            <img class="img-port" src="img/cabin.png" alt="Cabina">
           </div>
 
           <div class="col-xs-12 col-md-6 col-lg-4">
-            <!-- <img class="center-portfolio" src="img/cake.png" alt="Torta"> -->
+            <img class="img-port" src="img/cake.png" alt="Torta">
           </div>
 
           <div class="col-xs-12 col-md-6 col-lg-4">
-            <!-- <img class="center-portfolio" src="img/circus.png" alt="Circo"> -->
+            <img class="img-port" src="img/circus.png" alt="Circo">
           </div>
 
           <div class="col-xs-12 col-md-6 col-lg-4">
-            <!-- <img class="center-portfolio" src="img/game.png" alt="Giochi"> -->
+            <img class="img-port" src="img/game.png" alt="Giochi">
           </div>
 
           <div class="col-xs-12 col-md-6 col-lg-4">
-            <!-- <img class="center-portfolio" src="img/safe.png" alt="Sicurezza"> -->
+            <img class="img-port" src="img/safe.png" alt="Sicurezza">
           </div>
 
           <div class="col-xs-12 col-md-6 col-lg-4">
-            <!-- <img class="center-portfolio" src="img/submarine.png" alt="Subacqueo"> -->
+            <img class="img-port" src="img/submarine.png" alt="Subacqueo">
           </div>
         </section>
       </div>
@@ -102,14 +102,26 @@
       <!-- sezione about -->
       <section id="sez-3" class="row" >
           <div class="col-xs-12 col-sm-4 col-sm-offset-4">
-
+            <h1><strong>ABOUT</strong></h1>
+              <div class="line-star-about">
+                <hr>
+                <img id="img-star" src="img/star-solid.svg" alt="star">
+                <hr>
+              </div>
           </div>
 
-          <div class="col-xs-12 col-sm-3 col-sm-offset-2">
+          <!-- clearfix -->
+          <div class="clearfix visible-block"></div>
 
+          <div class="col-xs-12 col-sm-3 col-sm-offset-3">
+            <p>Freelancer is a free bootstrap theme<br>created by Start Bootstrap. The<br>download includes the complete<br>source files including HTML, CSS, and<br>JavaScript as well as optional SASS<br>stylesheets for easy customization.</p>
           </div>
 
-          <div class="col-xs-12 col-sm-3 col-sm-offset-2">
+          <div class="col-xs-12 col-sm-4">
+            <p>You can create your own custom<br>avatar for the masthead, change the<br>icon in the dividers, and add your<br>email address to the contact form to<br>make it fully functional!</p>
+          </div>
+
+          <div class="button-center">
 
           </div>
       </section>
@@ -117,34 +129,42 @@
       <!-- sezione contact me -->
       <section id="sez-4" class="row" >
         <div class="col-xs-12 col-sm-4 col-sm-offset-4">
-
+          <h1><strong>CONTACT ME</strong></h1>
+            <div class="line-star-about">
+              <hr>
+              <img id="img-star" src="img/star-solid.svg" alt="star">
+              <hr>
+            </div>
         </div>
 
-        <div class="col-xs-12 col-sm-8 col-sm-offset-2">
-
-        </div>
-
-        <div class="col-xs-12 col-sm-8 col-sm-offset-2">
-
+        <div class="col-xs-12 col-sm-6 col-sm-offset-3">
+          <input id="bor-text" type="text" class="form-control" placeholder="Name">
+          <input id="bor-text" type="text" class="form-control" placeholder="Email Address">
+          <input id="bor-text" type="text" class="form-control" placeholder="Phone Number">
+          <textarea id="bor-text" class="form-control" rows="3"></textarea>
+            <div>
+              <button id="send-text" type="submit" class="btn btn-default">Send</button>
+            </div>
         </div>
       </section>
 
       <!-- footer -->
-      <footer id="foot-1" class="row">
+      <footer id="back-fot" class="row">
+        <div class="col-xs-12 col-sm-2 col-sm-offset-2">
+          <h3><strong>LOCATION</strong></h3>
+          <p>2215 John Daniel Drive<br>Clark, MO 65243</p>
+        </div>
+
         <div class="col-xs-12 col-sm-2 col-sm-offset-1">
-
+          <h3><strong>AROUND THE WEB</strong></h3>
         </div>
 
-        <div class="col-xs-12 col-sm-2 col-sm-offset-2">
-
+        <div class="col-xs-12 col-sm-2 col-sm-offset-1">
+          <h3><strong>ABOUT FREELANCER</strong></h3>
+          <p>Freelance is a free to use, MIT<br>licensed Bootstrap theme created<br>by <a class="green-text" href="#">Start Bootstrap</a>.</p>
         </div>
-
-        <div class="col-xs-12 col-sm-2 col-sm-offset-2">
-
-        </div>
-
-        <div class="col-xs-12 col-sm-4 col-sm-offset-4">
-
+        <div id="back-foot-2" class="col-xs-12 col-sm-12">
+          <h6>Copyright © Your Website 2020</h6>
         </div>
       </footer>
     </div>
