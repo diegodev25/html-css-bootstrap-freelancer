@@ -258,3 +258,17 @@
   text-align: center;
   color: white;
 }
+
+/* MEDIA QUERY */
+@media all and (max-width: 991px) {
+
+  #brand-color {
+    font-size: 18px;
+  }
+
+  .navbar-default .navbar-nav > li > a {
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+  
+}
